@@ -1,0 +1,32 @@
+# engine / toolchain (supplied by the sandbox, not part of the game)
+.cli/
+.emmylua/
+engine-docs/
+examples/
+templates/
+urhox-libs/
+schemas/
+tools/
+editor-docs/
+skills/
+
+# build & editor output
+dist/
+.build/
+logs/
+_uploads/
+*.md5
+
+# bake intermediates (re-downloadable; keep out of git)
+# NOTE: shapefiles are ~330 MB; re-fetch with the commands in README
+.tmp/
+.project/settings.json.bak
+
+# agent/IDE dirs
+.claude/
+.codex/
+.cursor/
+.gemini/
+
+__pycache__/
+*.pyc

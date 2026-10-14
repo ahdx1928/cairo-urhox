@@ -1,0 +1,4 @@
+<technique vs="Skybox" ps="Skybox">
+    <pass name="postopaque" depthwrite="false" cull="none" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <parameter name="MatDiffColor" value="1 1 1 1" />
+</technique>

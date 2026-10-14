@@ -1,0 +1,17 @@
+{
+  "$schema": "../schemas/resources.schema.json",
+
+  "preload_groups": [
+    "default",
+    "city"
+  ],
+
+  "groups": {
+    "default": [
+      "**"
+    ],
+    "city": [
+      "City/**"
+    ]
+  }
+}
