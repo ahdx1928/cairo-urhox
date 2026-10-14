@@ -30,3 +30,7 @@ _uploads/
 
 __pycache__/
 *.pyc
+
+.agents/
+.opencode/
+.tmp-headless/
